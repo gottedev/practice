@@ -1,0 +1,54 @@
+.image_grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+
+  .card-container {
+    width: 24%;
+    position: relative;
+    .image-container {
+      min-height: 100%;
+      img {
+        width: 100%;
+        // object-fit: cover;
+      }
+    }
+    .content-container {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+}
+
+@media all and (max-width: 700px) {
+  .image_grid {
+    flex-wrap: wrap;
+    .card-container {
+      width: 50%;
+      .image-container {
+        min-height: 100%;
+        margin-top: 1.5rem;
+        img {
+          width: 90%;
+          // object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 400px) {
+  .image_grid {
+    flex-wrap: wrap;
+    .card-container {
+      width: 100%;
+      position: relative;
+      .image-container {
+        img {
+          width: 100%;
+          // object-fit: cover;
+        }
+      }
+    }
+  }
+}
