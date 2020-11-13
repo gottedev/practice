@@ -3,3 +3,68 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    .bg-blac-tfc-overlay {
+      background: rgba(0, 0, 0, 0.6);
+    }
+    .max-w-4-5xl {
+      max-width: 52.5rem;
+    }
+    .text-6-5xl {
+      font-size: 4.6rem;
+    }
+    .bg-cover-important {
+      background-size: cover !important;
+    }
+    .font-libre-baskerville {
+      font-family: "LibreBaskerville";
+    }
+    .font-libre-baskerville-Bold {
+      font-family: "LibreBaskerville-Bold";
+    }
+    .first-border-none *:first-child {
+      border: none;
+    }
+    .last-border-none *:first-child {
+      border: none;
+    }
+    .nav {
+      @apply fixed w-full px-20 py-12 z-20 bg-transparent transition-all ease-in duration-75 block;
+    }
+    .nav-scrolled {
+      @apply fixed w-full px-24 py-8 z-20 bg-black;
+    }
+    .top-2 {
+      top: 0.25rem;
+    }
+    .top-4 {
+      top: 0.5rem;
+    }
+    .top-6 {
+      top: 0.75rem;
+    }
+    .top-8 {
+      top: 1rem;
+    }
+    .top-10 {
+      top: 1.25rem;
+    }
+  }
+}
+
+@layer base {
+  @responsive {
+    @font-face {
+      font-family: "LibreBaskerville";
+      font-weight: 400;
+      src: url(LibreBaskerville-Regular.ttf) format("ttf");
+    }
+    @font-face {
+      font-family: "LibreBaskerville-Bold";
+      font-weight: 700;
+      src: url(LibreBaskerville-Bold.ttf) format("ttf");
+    }
+  }
+}

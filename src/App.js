@@ -1,13 +1,11 @@
 import React from "react";
 import Card from "./Card";
+import Hero from "./layouts/Hero/Hero";
 
 function App() {
   return (
     <>
-      <Card />
-      <div className="text_container">
-        <h2>asdhaskdhsajkd ashdajskdhsakjdh ashdsajkdhasjdh ahdajskdh</h2>
-      </div>
+      <Hero />
     </>
   );
 }
