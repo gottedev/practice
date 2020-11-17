@@ -51,6 +51,9 @@
     .top-10 {
       top: 1.25rem;
     }
+    .ctr {
+      @apply ml-auto mr-auto pl-4 pr-4;
+    }
   }
 }
 

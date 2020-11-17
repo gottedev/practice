@@ -13,8 +13,8 @@ module.exports = {
     screens: {
       sm: "640px",
       md: "768px",
-      lg: "1024px",
-      xl: "1280px",
+      lg: "992px",
+      xl: "1200px",
     },
     colors: {
       transparent: "transparent",
@@ -23,6 +23,9 @@ module.exports = {
       black: "#000",
       white: "#fff",
       tfcYellow: "#ffb41d",
+      primaryBlack: "#23272f",
+      primaryYellow: "#fecd07",
+      primaryGrey: "#eeeeee",
       gray: {
         100: "#f7fafc",
         200: "#edf2f7",
