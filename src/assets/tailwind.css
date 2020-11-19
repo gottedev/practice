@@ -263,6 +263,23 @@
       .mobile-nav .links-wrapper .submenu-parent .submenu-child li {
         @apply py-0 px-0 border-0;
       }
+
+      /* Table Styles */
+      .border-t-1-px {
+        border-top-width: 1px;
+      }
+
+      .border-l-1-px {
+        border-left-width: 1px;
+      }
+
+      .leading-1-1 {
+        line-height: 1.1;
+      }
+
+      .table-row-first-styles *:first-child {
+        @apply text-left py-3 pl-2 pr-1 font-bold;
+      }
     }
   }
 }

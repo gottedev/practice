@@ -27,6 +27,7 @@ module.exports = {
       primaryBlack: "#23272f",
       primaryYellow: "#fecd07",
       primaryGrey: "#eeeeee",
+      secondary_grey: "#dddddd",
       primary_yellow: "#fecd07",
       primary_black: "#23272f",
       secondary_black: "#525c6f",
@@ -34,6 +35,7 @@ module.exports = {
       primary_grey: "#eeeeee",
       primary_green: "#78A22F",
       secondary_yellow: "#efbe00",
+      teritiary_grey: "#777777",
       gray: {
         100: "#f7fafc",
         200: "#edf2f7",
@@ -240,6 +242,7 @@ module.exports = {
       outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
       none: "none",
       primary: "0 5px 15px -5px rgba(0,0,0,.3)",
+      primary_table: "0 7px 17px -9px rgba(0,0,0,.35)",
     },
     container: {},
     cursor: {

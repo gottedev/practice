@@ -4,13 +4,14 @@ import Hero from "./layouts/Hero/Hero";
 import Footer from "./layouts/Footer/Footer";
 import Header from "./layouts/Header/Header";
 import Banner from "./layouts/Banner/Banner";
+import Table from "./layouts/Table/Table";
 
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
-      {/* <Footer /> */}
+      {/* <Header />
+      <Banner /> */}
+      <Table />
     </>
   );
 }
