@@ -36,6 +36,7 @@ module.exports = {
       primary_green: "#78A22F",
       secondary_yellow: "#efbe00",
       teritiary_grey: "#777777",
+      white_smoke: "#f7f7f7",
       gray: {
         100: "#f7fafc",
         200: "#edf2f7",
